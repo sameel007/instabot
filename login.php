@@ -98,7 +98,7 @@ $OR="\e[33m";
 $PP="\e[35m"; 
 $B="\e[1m"; 
 $CC="\e[0m";
-ceco"\n";
+echo"\n";
 echo $WH.$conf['me'];
 echo "\n";  
 $data = Submit($conf['url'].'/data',0);
