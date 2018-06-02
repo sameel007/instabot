@@ -98,7 +98,7 @@ $OR="\e[33m";
 $PP="\e[35m"; 
 $B="\e[1m"; 
 $CC="\e[0m";
-
+ceco"\n";
 echo $WH.$conf['me'];
 echo "\n";  
 $data = Submit($conf['url'].'/data',0);
@@ -132,3 +132,4 @@ for($o=0;$o<count($d['0']);$o++)$cookie.=$d['1'][$o].";";
   echo "\n";
   echo $YL.$login['1'];
   }
+  echo"\n";
